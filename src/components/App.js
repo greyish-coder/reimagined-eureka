@@ -22,7 +22,7 @@ export default function App() {
     return (
       <p>
         Getting data from NASA right now to check whether something from space
-        is going to hit us. One moment…
+        is going to WIPE US OUT!! One moment…
       </p>
     );
   }
@@ -42,7 +42,7 @@ export default function App() {
     <div>
       <p>
         {format(addDays(new Date(), 1), 'EEEE d-MMM')} there will be{' '}
-        <strong>{results.length}</strong> flying missiles of doom
+        <strong>{results.length}</strong> flying missiles of DOOM
       </p>
       <hr></hr>
       {results
